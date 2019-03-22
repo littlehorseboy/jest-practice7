@@ -1,18 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1553267045599" clover="3.2.0">
-  <project timestamp="1553267045599" name="All files">
-    <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4" elements="15" coveredelements="15" complexity="0" loc="9" ncloc="9" packages="1" files="1" classes="1"/>
-    <file name="Link.jsx" path="D:\React\jest-practice7\src\components\Link\Link.jsx">
+<coverage generated="1553269673740" clover="3.2.0">
+  <project timestamp="1553269673740" name="All files">
+    <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="7" coveredmethods="7" elements="26" coveredelements="26" complexity="0" loc="15" ncloc="15" packages="2" files="2" classes="2"/>
+    <package name="CheckboxWithLabel">
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <file name="CheckboxWithLabel.jsx" path="D:\React\jest-practice7\src\components\CheckboxWithLabel\CheckboxWithLabel.jsx">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Link">
       <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
-      <line num="4" count="1" type="stmt"/>
-      <line num="11" count="2" type="stmt"/>
-      <line num="13" count="2" type="stmt"/>
-      <line num="17" count="2" type="stmt"/>
-      <line num="18" count="2" type="stmt"/>
-      <line num="22" count="2" type="stmt"/>
-      <line num="28" count="2" type="stmt"/>
-      <line num="34" count="6" type="stmt"/>
-      <line num="47" count="1" type="stmt"/>
-    </file>
+      <file name="Link.jsx" path="D:\React\jest-practice7\src\components\Link\Link.jsx">
+        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="34" count="6" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
