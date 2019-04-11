@@ -1,5 +1,9 @@
 import React from 'react';
 
+function Title() {
+  return <p>計數器</p>;
+}
+
 class Counter extends React.Component {
   constructor(props) {
     super(props);
@@ -12,6 +16,8 @@ class Counter extends React.Component {
   render() {
     return (
       <div>
+        <Title />
+
         姓名
         <input value={this.state.name} onChange={e => this.setState({ name: e.target.value })} />
         <br />
